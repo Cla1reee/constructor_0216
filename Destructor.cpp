@@ -13,6 +13,20 @@ public:
     void isiData();
 };
 
+angka::angka(int i){
+    panjang = i;
+    arr
+}
+
+angka::~angka(){
+    cout << endl;
+    cetakData();
+    delete[]arr;
+    cout << "Alamat Array Sudah Dilepaskan" << endl;
+}
+
+
+
 int main(){
 
 }
