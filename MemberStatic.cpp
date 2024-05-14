@@ -3,13 +3,23 @@ using namespace std;
 
 class mahasiswa{
     public:
-        static int main;
+        static int nim;
         int id;
         string nama;
 
-        void setid();
-        
-}
+        void setID();
+
+        void printAll();
+
+        mahasiswa(string pnama){
+            nama = pnama;
+            setID();
+        }
+};
+
+
+
+
 
 int main(){
 
